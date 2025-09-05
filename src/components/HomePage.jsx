@@ -160,6 +160,7 @@ const HomePage = () => {
                     key={bar.id}
                     bar={bar}
                     todaysDeals={getTodaysDeals(bar.slug)}
+                    allDeals={deals[bar.slug] || {}}
                   />
                 ))}
               </div>

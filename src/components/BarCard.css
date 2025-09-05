@@ -85,3 +85,25 @@
   font-size: 0.9rem;
   margin: 0;
 }
+
+.deals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.deal-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.deal-type-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--crimson);
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--crimson-light);
+  padding-bottom: 0.25rem;
+}

@@ -62,10 +62,14 @@ const BarDetail = () => {
   }
 
   const getDayDeals = (day) => {
-    if (!deals) return []
+    if (!deals) return { everyday: [], daily: [] }
     const dayDeals = deals[day.toLowerCase()] || []
     const everydayDeals = deals.everyday || []
-    return [...everydayDeals, ...dayDeals]
+    return { 
+      everyday: everydayDeals, 
+      daily: dayDeals,
+      day: day
+    }
   }
 
   const getTodaysDeals = () => {
@@ -265,16 +269,37 @@ const BarDetail = () => {
             <h2>Weekly Deals</h2>
             <div className="deals-grid">
               {dayNames.map(day => {
-                const dayDeals = getDayDeals(day.toLowerCase())
+                const dayData = getDayDeals(day.toLowerCase())
+                const hasEverydayDeals = dayData.everyday && dayData.everyday.length > 0
+                const hasDailyDeals = dayData.daily && dayData.daily.length > 0
+                const hasAnyDeals = hasEverydayDeals || hasDailyDeals
+                
                 return (
                   <div key={day} className="day-deals-box">
                     <h3 className="day-title">{day}</h3>
-                    {dayDeals.length > 0 ? (
-                      <ul className="day-deals-list">
-                        {dayDeals.map((deal, index) => (
-                          <li key={index}>{deal}</li>
-                        ))}
-                      </ul>
+                    {hasAnyDeals ? (
+                      <div className="deals-container">
+                        {hasEverydayDeals && (
+                          <div className="deal-group">
+                            <h4 className="deal-type-label">EVERYDAY:</h4>
+                            <ul className="day-deals-list">
+                              {dayData.everyday.map((deal, index) => (
+                                <li key={index}>{deal}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        {hasDailyDeals && (
+                          <div className="deal-group">
+                            <h4 className="deal-type-label">{day.toUpperCase()}:</h4>
+                            <ul className="day-deals-list">
+                              {dayData.daily.map((deal, index) => (
+                                <li key={index}>{deal}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
                     ) : (
                       <p className="no-deals">No deals</p>
                     )}
