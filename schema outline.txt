@@ -1,0 +1,22 @@
+BAR_INFO
+- Full Name --> found in bars.json
+- Slug (short name) --> found in bars.json
+- Location --> found in bars.json
+- Address --> add later
+- Instagram --> add later
+- img_url --> add later
+- created_at
+- updated_at
+
+DEALS
+- Full Name
+- Slug
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+- everyday
+

@@ -1,0 +1,12 @@
+Create a clean website that lists the bars in bars.json by location (Strip, Downtown, Niche). Each page should have its own block under the location type, and inside should show a preview of the deals of that day. when you click on the bar, it opens a dedicated page where more information is shown (logo, address, deals, special events, etc.)
+
+Use the style described in styles.txt for colors and theme. Deal information can be found in deals.json and bar names and slug can be found in bars.json.
+
+Schema outline can be found in schema outline.txt
+
+Stack:
+
+Website: react
+Backend: supabase
+
+i want a very simple mvp, totally dynamic from supabase. i want to be able to get this up and hosted on my site ASAP using vercel and GitHub.

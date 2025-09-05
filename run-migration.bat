@@ -1,0 +1,9 @@
+@echo off
+echo Setting up migration environment...
+copy migrate-package.json package.json
+echo Installing dependencies...
+npm install
+echo Running migration...
+node migrate-data.js
+echo Migration complete!
+pause

@@ -1,0 +1,262 @@
+{
+    "The Booth": {
+      "everyday": [],
+      "Monday": ["$3 Rum Wells", "$2 Busch Light Bottles", "$3 All Cervezas", "$3 Pornstars"],
+      "Tuesday": ["$2 Busch", "$2 Natty Tall Boys", "$2 Rolling Rocks", "$3 Green Tea Shots"],
+      "Wednesday": ["$3 White Claws", "$5 32oz Slippery", "$2 High Life", "$3 Keylime Pie Shot"],
+      "Thursday": ["$5 Sun Cruisers", "$3 Miller Tall Boys", "$3 Pineapple Potion", "$3 Jameson Orange Shots"],
+      "Friday": ["$5 Yellow Hammer Slammer", "$6 Lucky Ones", "$3 Tootsie Roll Shots", "$3 Blue Icee"],
+      "Saturday": ["$3 Abita Beers", "$7 Well Doubles", "$3 Vegas Bomb", "$3 Pink Starburst"],
+      "Sunday": []
+    },
+    "Grandstand": {
+      "everyday": [],
+      "Monday": ["Happy Hour 3-8", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double", "Poker Tournament"],
+      "Tuesday": ["Happy Hour 3-8", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double"],
+      "Wednesday": ["Happy Hour 3-8", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double"],
+      "Thursday": ["Happy Hour 3-8", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double", "Free Pool and Karaoke"],
+      "Friday": ["Happy Hour 3- 7", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double"],
+      "Saturday": ["Happy Hour 3- 7", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double"],
+      "Sunday": ["Happy Hour 3- 7", "$2 Domestic Beers", "$3.50 Well Single", "$6 Well Double"]
+    },
+    "Innisfree Irish Pub": {
+      "everyday": [],
+      "Monday": ["$2 Can Beers (All Day)", "$3 Seltzers (All Day)", "$5 Double Wells (All Day)", "$7 DBL Vodka Redbull (All Day)", "$13 Domestic Beer Bucket (All Day)", "$1 Wine (4PM - Close)", "$2 Draft Beer (4PM - Close)", "$3 Red Rose Shots (4PM - Close)", "$4 Bachelor Bombs (4PM - Close)", "75 cent Wing (4-10PM)"],
+      "Tuesday": ["$2 Can Beers (ALL DAY)", "$3 Seltzers (All Day)", "$5 Double Wells (All Day)", "$7 DBL Vodka Redbull (All Day)", "$13 Domestic Beer Bucket (All Day)", "$2 818 Tequilla Shots (6PM - Close)", "$3 Mexican Beers (6 PM - Close)", "$4 818 Skinny/Regular Margs (6PM-Close)", "$5 Gatorade, Slipperys, CapriSuns", "(6PM - Close)", "Half off Dips (4PM-10PM)", "$5 Chicken Ceasar Wraps (4PM - 10PM)"],
+      "Wednesday": ["$3 SunCruisers (6PM-Close)", "$3 Twea Draft/ Coors Lites (6PM-Close)", "$5 Car Bombs (6 PM-Close)", "$2 Can Beers (All Day)", "$3 Seltzers (All Day)", "$5 Double Wells (All Day)", "$7 DBL Vodka Redbull (All Day)", "$13 Domestic Beer Bucket (All Day)", "$1 Mini Bottles Wine (6PM-Close)", "$2 Pink Teas (6PM-Close)", "$2 Fireball (6PM-Close)", "Half off Wings (4-10PM)", "Bogo Hotdogs (4-10PM)"],
+      "Thursday": ["$5 JT Wraps", "$5 Doubles"],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Moes BBQ": {
+      "everyday": [],
+      "Monday": ["75 Cent Wings 7-9 PM", "$3 Tweas, Angry Orchards, Dogfish", "$5 Sun Cruisers"],
+      "Tuesday": ["$2 Tequila", "$3 Cervezas (Beers)"],
+      "Wednesday": ["$4 Bushwhacker"],
+      "Thursday": ["$3 32oz Wells"],
+      "Friday": ["$2 Beers", "$5 Slipperys, Blue Powerade", "Capri Suns"],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Rhythm & Brews": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": ["$1 Miller Lites"],
+      "Friday": ["$4 Coors Lights", "$5 Single Wells", "$6 Vegas Bombs", "$7 Surfsides", "$8 Double Specialty Drinks"],
+      "Saturday": ["$4 Coors Lights", "$5 Wells", "$6 Vegas Bombs", "$7 Surfsides", "$8 Double Specialty Drinks"],
+      "Sunday": []
+    },
+    "World of Beer": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Wheelhouse": {
+      "everyday": [],
+      "Monday": ["Pool Tournament @ 8:30", "$3 Beers", "Cash Prizes"],
+      "Tuesday": ["Poker Tournament @ 7pm", "$15 Pizza & Pitcher"],
+      "Wednesday": ["Penny Pitchers @ 8"],
+      "Thursday": ["Poker Tournament @ 7pm", "$2 Shots", "$5 Drinks", "$6 Midnight Pizza"],
+      "Friday": ["$2 Shots", "$5 Drinks", "$6 Midnight Pizza"],
+      "Saturday": ["$2 Shots", "$5 Drinks", "$6 Midnight Pizza"],
+      "Sunday": []
+    },
+    "Copper Top": {
+      "everyday": ["Happy Hour 1-6pm:", "$2 American Beer", "$3 Baby Bombs", "$4 Jose", "$4 Fireball"],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Alcove": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "The Gray Lady": {
+      "everyday": [],
+      "Monday": ["$4 Vegas Bombs", "$8 Double Wells", "Trivia at 8pm"],
+      "Tuesday": ["$3 White Claws", "$4 Wine", "$4 Red Velvet Cake Shots", "Music Bingo at 8:30pm"],
+      "Wednesday": ["$4 Draft Pints", "$4 Rumple Shots"],
+      "Thursday": ["Happy Hour All Day", "$3 Domestics", "$4 Wells"],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Harrys": {
+      "everyday": [],
+      "Monday": ["Penny Beers", "$3 Lemon Drops"],
+      "Tuesday": ["$3 Singles", "$5 Doubles"],
+      "Wednesday": ["$3 Shots", "$3 32oz Wells"],
+      "Thursday": ["$1 Busch", "$2 White Claws"],
+      "Friday": ["$2 Coors Banquet Draft", "$4 Seltzers"],
+      "Saturday": ["$19 Krazy Buckets"],
+      "Sunday": ["$2.50 Beers", "$3.50 Wells"]
+    },
+    "Jackies": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Loosa Brews": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": ["20% off Wine Bottles", "$5 Wine Glasses", "4pm-Close"],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": ["20% off for Service", "Industry Workers"]
+    },
+    "Catch 22": {
+      "everyday": ["Happy Hour until 7pm", "$1 off Infused Shots", "$1.50 off all infused cocktails", "$0.50 off Everything Else"],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Session Cocktails": {
+      "everyday": [],
+      "Monday": ["Happy Hour 4-7pm", "Martini Monday", "$8 Martinis"],
+      "Tuesday": ["Happy Hour 4-7pm", "Tequila Tuesday", "$8 Tequila Beverages"],
+      "Wednesday": ["Happy Hour 4-7pm", "Whiskey Wednesday", "$8 Whiskey Beverages"],
+      "Thursday": ["Happy Hour 4-7pm"],
+      "Friday": ["Happy Hour 3-7pm"],
+      "Saturday": ["Happy Hour 3-7pm"],
+      "Sunday": ["Happy Hour All Day"]
+    },
+    "Twelve25": {
+      "everyday": ["Happy Hour 4-9 PM", "$0.95 Wells; $4 Beer Pitchers"],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Buffalo Phils": {
+      "everyday": ["Happy Hour 3 - 6 PM", "$3 Bottles; $4 Shots", "$3 30oz Domestic Drafts", "$6 Phil's Specialty Drinks"],
+      "Monday": ["$3 Domestic 30oz Drafts", "$6 Domestic Draft Pitchers"],
+      "Tuesday": ["$3 Domestic 30oz Drafts", "$6 Domestic Draft Pitchers"],
+      "Wednesday": ["$3 Happy Hour Bottles", "$2.50 White Claws", "$4 Jager Bombs", "$4 Vegas Bombs"],
+      "Thursday": ["$6 32oz Wells", "$6 32oz Margarita", "$7 32oz Peach or Strawberry", "Margarita"],
+      "Friday": ["$3 Mexican Bottles", "$3 32oz or $6 Pitchers of Dos Equis", "$6 32oz Margarita", "$7 32oz Peach or Strawberry"],
+      "Saturday": ["Half Price Local Beer", "(Cans & Draft)", "Half Priced Hard Seltzers", "$3 Happy Hour Bottles", "$3 32oz Domestic Drafts"],
+      "Sunday": ["$2.50 Mimosas & $5 Doubles Mimosas", "$3 Bloody Mary & Screwdriver", "$7 Philibuster"]
+    },
+    "Gallettes": {
+      "everyday": [],
+      "Monday": ["$1 Beers"],
+      "Tuesday": ["$2 Clubtails", "$2 Happy Dads", "$2 Fireball"],
+      "Wednesday": ["Wine Wednesday", "$5 Wine Bottles"],
+      "Thursday": [],
+      "Friday": ["$5 32oz Wells"],
+      "Saturday": ["$5 32oz Wells"],
+      "Sunday": []
+    },
+    "Hoppers Corner": {
+      "everyday": [],
+      "Monday": ["$5 Classic Mules", "$7 Flavored Mules"],
+      "Tuesday": ["$4 Pints All Night", "Dart League @ 7pm"],
+      "Wednesday": ["Happy Hour till 9", "$4 Highnoons", "$4 Surfsides", "$4 White Claws"],
+      "Thursday": ["Happy Hour All Day", "$3 Domestics", "$5 Singles; $7 Doubles", "$3 Kamikazes, Baby Bombs", "& Baby Barrels"],
+      "Friday": ["Happy Hour till 9", "Live Music & Food"],
+      "Saturday": ["Happy Hour till 9", "Live Music & Food"],
+      "Sunday": ["$10 Mimosa Pitchers", "Free Golden Tee"]
+    },
+    "The Rabbit Hole": {
+      "everyday": [],
+      "Monday": ["$4 Single Wells", "$4 Domestics", "$6 Double Wells"],
+      "Tuesday": ["$14 Liquor Pitchers", "$3 Tequila Shots", "$2 Taco (Chicken or Beef"],
+      "Wednesday": ["$9 Domestic Pitchers", "1/2 Off Natchos"],
+      "Thursday": ["$3 White Claws", "$2 Kamikaze Shots"],
+      "Friday": ["$8 Double Slippery", "$3 Tall Boys"],
+      "Saturday": ["$15 Mimosa Pitchers"],
+      "Sunday": []
+    },
+    "Rounders": {
+      "everyday": [],
+      "Monday": ["$3 32oz Wells", "$2 Baby Bombs"],
+      "Tuesday": ["$2 Tequila Shots", "$2 Bud Lights", "$2 Nutrls"],
+      "Wednesday": ["$3 32oz Wells", "$2 Fireball Shots"],
+      "Thursday": ["$6 Liquor Pitchers"],
+      "Friday": ["$5 All-Nighters"],
+      "Saturday": ["$5 All-Nighters"],
+      "Sunday": []
+    },
+    "The Red Shed": {
+      "everyday": [],
+      "Monday": ["$8 60oz Liquor Pitchers"],
+      "Tuesday": ["$2 Wells, Kamakazes", "Bud Light Tall Boys"],
+      "Wednesday": ["$8 60oz Liquor Pitchers"],
+      "Thursday": ["$6 Double Wells", "$3 Shot Special"],
+      "Friday": ["$2 Mystery Beers"],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Sideline": {
+      "everyday": [],
+      "Monday": ["Only Open to Bama Frat", "Fantasy Football League", "Free Sun Cruisers for first 25 Members", "$2 Off Sun Cruisers after"],
+      "Tuesday": ["$2 Twisted Teas"],
+      "Wednesday": ["$6 Beer/Shot Combo"],
+      "Thursday": ["$5 Double Wells"],
+      "Friday": ["Beat the Line", "Pre-Band Starts at 8"],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "The Standard": {
+      "everyday": ["$3 Mimosas; $5 Monster Bombs", "$10 Wipeout Buckets"],
+      "Monday": ["$2 Ultra Draft", "$2 Red Tusk Shots", "Slide of the day: Buffalo Chicken"],
+      "Tuesday": ["$5 Double Margaritas", "$2 House Tequila Shots", "Slide of the day: Boom Boom Slice"],
+      "Wednesday": ["$5 Draft & Cheese Slice", "$7 Double LIT", "Slide of the day: BBQ Chicken"],
+      "Thursday": ["$0.99 Well Drinks (9pm-12am)", "Slide of the day: Penne Vodka Slice"],
+      "Friday": ["$4 Ultra Bottles", "$3 Green Tea & Lemon Drop Shots", "Slide of the day: Mac n' Cheese"],
+      "Saturday": ["$7 Double LIT", "$2 Red Tusk Shots", "Slide of the day: Margherita"],
+      "Sunday": ["$25 Cheese Pie & Draft Pitcher", "$5 Double Wells; $8 Draft Pitchers", "Slide of the day: Chicken Bacon Ranch"]
+    },
+    "Houndstooth": {
+      "everyday": [],
+      "Monday": ["Happy Hour 4-7 PM", "$3 Domestics", "$3 Shot of the Week", "$3 Singles; $5.50 Doubles"],
+      "Tuesday": ["Happy Hour 4-7 PM", "$3 Domestics", "$3 Shot of the Week", "$3 Singles; $5.50 Doubles"],
+      "Wednesday": ["Happy Hour 4-7 PM", "$3 Domestics", "$3 Shot of the Week", "$3 Singles; $5.50 Doubles"],
+      "Thursday": ["Happy Hour 4-7 PM", "$3 Domestics", "$3 Shot of the Week", "$3 Singles; $5.50 Doubles"],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "Bear Trap": {
+      "everyday": [],
+      "Monday": [],
+      "Tuesday": ["Bingo", "$4 Sun Cruisers"],
+      "Wednesday": ["50 cent Wings", "$8 Miller Lite Pitchers"],
+      "Thursday": ["Happy Hour Till 9", "$8 Miller Lite Pitchers", "$3 Liquor Pitcher"],
+      "Friday": ["Happy Hour Till 9", "$8 Miller Lite Pitchers"],
+      "Saturday": [],
+      "Sunday": []
+    }
+}

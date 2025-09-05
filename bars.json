@@ -1,0 +1,47 @@
+{
+  "strip": {
+    "Twelve25": "1225",
+    "Buffalo Phils": "bphils",
+    "Gallettes": "gallettes",
+    "Hoppers Corner": "hoppers",
+    "The Rabbit Hole": "rabbit",
+    "Rounders": "rounders",
+    "The Red Shed": "shed",
+    "Sideline": "sideline",
+    "The Standard": "standard",
+    "Houndstooth": "tooth",
+    "Bear Trap": "trap",
+    "Glory Bound": "glory"
+  },
+  "downtown": {
+    "The Booth": "booth",
+    "Grandstand": "grandstand",
+    "Innisfree Irish Pub": "innis",
+    "Moes BBQ": "moes",
+    "Rhythm & Brews": "rhythm",
+    "Wheelhouse": "wheelhouse",
+    "Copper Top": "coppertop",
+    "La Hacienda": "laha",
+    "Crimson Tap House": "wob",
+    "Taco Mama": "tacomama",
+    "Daq Shaq": "daqshaq",
+    "Decades": "decades",
+    "1831": "1831",
+    "SoCal": "socal"
+  },
+  "niche": {
+    "Alcove": "alcove",
+    "The Gray Lady": "graylady",
+    "Harrys": "harrys",
+    "Jackies": "jackies",
+    "Loosa Brews": "loosa",
+    "Catch 22": "catch22",
+    "Session Cocktails": "session",
+    "Five Bar": "fivebar",
+    "Black Warrior Brewing": "bwb",
+    "Roll Call": "rollcall",
+    "Central Mesa": "centralmesa",
+    "Big Al's": "bigals",
+    "Daves Crimson Bar": "daves"
+  }
+} 
