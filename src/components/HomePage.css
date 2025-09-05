@@ -9,9 +9,19 @@
 .location-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 3px solid var(--crimson);
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.location-header:hover {
+  background-color: rgba(220, 20, 60, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .location-title {
@@ -21,6 +31,21 @@
   text-transform: capitalize;
 }
 
+.chevron {
+  font-size: 1.2rem;
+  color: var(--crimson);
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.chevron.collapsed {
+  transform: rotate(-90deg);
+}
+
+.chevron.expanded {
+  transform: rotate(0deg);
+}
+
 .bars-grid {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
@@ -28,6 +53,20 @@
   max-width: 1200px !important;
   margin: 0 auto !important;
   width: 100% !important;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.bars-grid.collapsed {
+  max-height: 0;
+  opacity: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bars-grid.expanded {
+  max-height: 2000px;
+  opacity: 1;
 }
 
 /* Ensure each location section has proper grid layout */
@@ -70,6 +109,18 @@
     max-width: none !important;
     margin: 0 !important;
     width: 100% !important;
+  }
+  
+  .bars-grid.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bars-grid.expanded {
+    max-height: 2000px;
+    opacity: 1;
   }
   
   .location-section .bars-grid {

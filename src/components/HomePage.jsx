@@ -9,6 +9,11 @@ const HomePage = () => {
   const [deals, setDeals] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [collapsedSections, setCollapsedSections] = useState({
+    strip: false,
+    downtown: false,
+    niche: false
+  })
 
   useEffect(() => {
     fetchData()
@@ -69,6 +74,13 @@ const HomePage = () => {
     const everydayDeals = barDeals.everyday || []
     
     return [...everydayDeals, ...todaysDeals]
+  }
+
+  const toggleSection = (location) => {
+    setCollapsedSections(prev => ({
+      ...prev,
+      [location]: !prev[location]
+    }))
   }
 
   const groupBarsByLocation = () => {
@@ -151,10 +163,17 @@ const HomePage = () => {
         <div className="container">
           {Object.entries(groupedBars).map(([location, locationBars]) => (
             <section key={location} className="location-section" id={location}>
-              <div className="location-header">
+              <div 
+                className="location-header" 
+                onClick={() => toggleSection(location)}
+                style={{ cursor: 'pointer' }}
+              >
                 <h2 className="location-title">{location}</h2>
+                <span className={`chevron ${collapsedSections[location] ? 'collapsed' : 'expanded'}`}>
+                  ▼
+                </span>
               </div>
-              <div className="bars-grid">
+              <div className={`bars-grid ${collapsedSections[location] ? 'collapsed' : 'expanded'}`}>
                 {locationBars.map(bar => (
                   <BarCard
                     key={bar.id}
